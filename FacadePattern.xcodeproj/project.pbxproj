@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		77584EB01D54A2C3008D0BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EAF1D54A2C3008D0BF9 /* main.m */; };
+		77584EB91D54A686008D0BF9 /* LetterProcessImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EB81D54A686008D0BF9 /* LetterProcessImpl.m */; };
+		77584EBC1D54A792008D0BF9 /* ModenPostOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EBB1D54A792008D0BF9 /* ModenPostOffice.m */; };
+		77584EC01D54BB74008D0BF9 /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EBF1D54BB74008D0BF9 /* Police.m */; };
+		77584EC61D54BDE5008D0BF9 /* RHCClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EC51D54BDE5008D0BF9 /* RHCClassA.m */; };
+		77584EC91D54BE0F008D0BF9 /* RHCClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584EC81D54BE0F008D0BF9 /* RHCClassB.m */; };
+		77584ECC1D54BE7A008D0BF9 /* RHCClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584ECB1D54BE7A008D0BF9 /* RHCClassC.m */; };
+		77584ECF1D54BEB5008D0BF9 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584ECE1D54BEB5008D0BF9 /* Facade.m */; };
+		77584ED21D54C07D008D0BF9 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 77584ED11D54C07D008D0BF9 /* Context.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,26 @@
 /* Begin PBXFileReference section */
 		77584EAC1D54A2C3008D0BF9 /* FacadePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FacadePattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		77584EAF1D54A2C3008D0BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77584EB61D54A625008D0BF9 /* ILetterProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILetterProcess.h; sourceTree = "<group>"; };
+		77584EB71D54A686008D0BF9 /* LetterProcessImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterProcessImpl.h; sourceTree = "<group>"; };
+		77584EB81D54A686008D0BF9 /* LetterProcessImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetterProcessImpl.m; sourceTree = "<group>"; };
+		77584EBA1D54A792008D0BF9 /* ModenPostOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModenPostOffice.h; sourceTree = "<group>"; };
+		77584EBB1D54A792008D0BF9 /* ModenPostOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModenPostOffice.m; sourceTree = "<group>"; };
+		77584EBD1D54A97A008D0BF9 /* facadePattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facadePattern001.png; sourceTree = "<group>"; };
+		77584EBE1D54BB74008D0BF9 /* Police.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Police.h; sourceTree = "<group>"; };
+		77584EBF1D54BB74008D0BF9 /* Police.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Police.m; sourceTree = "<group>"; };
+		77584EC21D54BD8E008D0BF9 /* facade001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facade001.png; sourceTree = "<group>"; };
+		77584EC31D54BDB4008D0BF9 /* facade002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facade002.png; sourceTree = "<group>"; };
+		77584EC41D54BDE5008D0BF9 /* RHCClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCClassA.h; sourceTree = "<group>"; };
+		77584EC51D54BDE5008D0BF9 /* RHCClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCClassA.m; sourceTree = "<group>"; };
+		77584EC71D54BE0F008D0BF9 /* RHCClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCClassB.h; sourceTree = "<group>"; };
+		77584EC81D54BE0F008D0BF9 /* RHCClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCClassB.m; sourceTree = "<group>"; };
+		77584ECA1D54BE7A008D0BF9 /* RHCClassC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCClassC.h; sourceTree = "<group>"; };
+		77584ECB1D54BE7A008D0BF9 /* RHCClassC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCClassC.m; sourceTree = "<group>"; };
+		77584ECD1D54BEB5008D0BF9 /* Facade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		77584ECE1D54BEB5008D0BF9 /* Facade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		77584ED01D54C07D008D0BF9 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		77584ED11D54C07D008D0BF9 /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +69,7 @@
 		77584EA31D54A2C3008D0BF9 = {
 			isa = PBXGroup;
 			children = (
+				77584EC11D54BD72008D0BF9 /* Facade */,
 				77584EAE1D54A2C3008D0BF9 /* FacadePattern */,
 				77584EAD1D54A2C3008D0BF9 /* Products */,
 			);
@@ -58,8 +87,35 @@
 			isa = PBXGroup;
 			children = (
 				77584EAF1D54A2C3008D0BF9 /* main.m */,
+				77584EBD1D54A97A008D0BF9 /* facadePattern001.png */,
+				77584EB61D54A625008D0BF9 /* ILetterProcess.h */,
+				77584EB71D54A686008D0BF9 /* LetterProcessImpl.h */,
+				77584EB81D54A686008D0BF9 /* LetterProcessImpl.m */,
+				77584EBA1D54A792008D0BF9 /* ModenPostOffice.h */,
+				77584EBB1D54A792008D0BF9 /* ModenPostOffice.m */,
+				77584EBE1D54BB74008D0BF9 /* Police.h */,
+				77584EBF1D54BB74008D0BF9 /* Police.m */,
 			);
 			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		77584EC11D54BD72008D0BF9 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				77584EC31D54BDB4008D0BF9 /* facade002.png */,
+				77584EC21D54BD8E008D0BF9 /* facade001.png */,
+				77584EC41D54BDE5008D0BF9 /* RHCClassA.h */,
+				77584EC51D54BDE5008D0BF9 /* RHCClassA.m */,
+				77584EC71D54BE0F008D0BF9 /* RHCClassB.h */,
+				77584EC81D54BE0F008D0BF9 /* RHCClassB.m */,
+				77584ECA1D54BE7A008D0BF9 /* RHCClassC.h */,
+				77584ECB1D54BE7A008D0BF9 /* RHCClassC.m */,
+				77584ECD1D54BEB5008D0BF9 /* Facade.h */,
+				77584ECE1D54BEB5008D0BF9 /* Facade.m */,
+				77584ED01D54C07D008D0BF9 /* Context.h */,
+				77584ED11D54C07D008D0BF9 /* Context.m */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77584EBC1D54A792008D0BF9 /* ModenPostOffice.m in Sources */,
+				77584EC61D54BDE5008D0BF9 /* RHCClassA.m in Sources */,
 				77584EB01D54A2C3008D0BF9 /* main.m in Sources */,
+				77584EB91D54A686008D0BF9 /* LetterProcessImpl.m in Sources */,
+				77584EC01D54BB74008D0BF9 /* Police.m in Sources */,
+				77584EC91D54BE0F008D0BF9 /* RHCClassB.m in Sources */,
+				77584ECC1D54BE7A008D0BF9 /* RHCClassC.m in Sources */,
+				77584ED21D54C07D008D0BF9 /* Context.m in Sources */,
+				77584ECF1D54BEB5008D0BF9 /* Facade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
